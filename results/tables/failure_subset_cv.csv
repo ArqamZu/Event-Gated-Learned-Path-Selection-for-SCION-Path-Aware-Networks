@@ -1,0 +1,57 @@
+subset,policy,n,fail_pct,regret_mean,regret_p90,avoided
+persistence fails (all),Proposed,234,26.923076923076923,0.9015042735042736,0.0,171
+persistence fails (all),Random,234,91.45299145299145,104.2366452991453,160.0858,20
+persistence fails (all),Persistence,234,100.0,27.686931623931624,46.81670000000002,0
+persistence fails (all),Last-known-best,234,26.495726495726498,0.07421794871794855,0.0,172
+persistence fails (all),Nowcast min-RTT*,234,25.213675213675213,0.0,0.0,175
+persistence fails (all),EMA-6 RTT,234,26.923076923076923,0.08131623931623916,0.0,171
+persistence fails (all),ScionPathML heuristic (nowcast)*,234,9.401709401709402,3.766252136752135,8.570099999999979,212
+persistence fails (all),ScionPathML heuristic (forecast),234,41.02564102564102,5.578170940170939,31.371500000000005,138
+persistence fails (all),Epsilon-greedy (0.1),234,22.64957264957265,6.193820512820513,1.9566000000000152,181
+persistence fails (all),Oracle*,234,9.401709401709402,3.766252136752135,8.570099999999979,212
+persistence fails (all),Ranker only,234,26.495726495726498,0.07421794871794855,0.0,172
+persistence fails (all),Gate only,234,29.914529914529915,1.7631324786324791,0.0,164
+persistence fails (all),"Proposed, Phase 2 incumbent",234,26.06837606837607,0.3712735042735042,0.0,173
+persistence fails (all),"Proposed, guarded threshold",234,26.495726495726498,0.07421794871794855,0.0,172
+persistence fails: sampling artifact,Proposed,174,3.4482758620689653,1.0574540229885057,0.0,168
+persistence fails: sampling artifact,Random,174,93.10344827586206,100.4285632183908,157.5147,12
+persistence fails: sampling artifact,Persistence,174,100.0,37.15526436781609,47.68770000000001,0
+persistence fails: sampling artifact,Last-known-best,174,1.1494252873563218,0.020925287356321626,0.0,172
+persistence fails: sampling artifact,Nowcast min-RTT*,174,0.5747126436781609,0.0,0.0,173
+persistence fails: sampling artifact,EMA-6 RTT,174,1.7241379310344827,0.030471264367815887,0.0,171
+persistence fails: sampling artifact,ScionPathML heuristic (nowcast)*,174,0.0,0.04967241379310329,0.0,174
+persistence fails: sampling artifact,ScionPathML heuristic (forecast),174,20.689655172413794,7.163574712643678,31.990999999999996,138
+persistence fails: sampling artifact,Epsilon-greedy (0.1),174,6.896551724137931,5.725971264367817,0.0,162
+persistence fails: sampling artifact,Oracle*,174,0.0,0.04967241379310329,0.0,174
+persistence fails: sampling artifact,Ranker only,174,1.1494252873563218,0.020925287356321626,0.0,172
+persistence fails: sampling artifact,Gate only,174,6.321839080459771,2.250862068965518,0.0,163
+persistence fails: sampling artifact,"Proposed, Phase 2 incumbent",174,2.2988505747126435,0.3458563218390803,0.0,170
+persistence fails: sampling artifact,"Proposed, guarded threshold",174,1.1494252873563218,0.020925287356321626,0.0,172
+persistence fails: genuine,Proposed,60,95.0,0.4492500000000007,0.15800000000000064,3
+persistence fails: genuine,Random,60,86.66666666666667,115.28008333333334,360.3813,8
+persistence fails: genuine,Persistence,60,100.0,0.22876666666666665,0.0,0
+persistence fails: genuine,Last-known-best,60,100.0,0.22876666666666665,0.0,0
+persistence fails: genuine,Nowcast min-RTT*,60,96.66666666666667,0.0,0.0,2
+persistence fails: genuine,EMA-6 RTT,60,100.0,0.22876666666666665,0.0,0
+persistence fails: genuine,ScionPathML heuristic (nowcast)*,60,36.666666666666664,14.544333333333329,32.45030000000001,38
+persistence fails: genuine,ScionPathML heuristic (forecast),60,100.0,0.9804999999999997,0.0,0
+persistence fails: genuine,Epsilon-greedy (0.1),60,68.33333333333333,7.550583333333333,4.706599999999992,19
+persistence fails: genuine,Oracle*,60,36.666666666666664,14.544333333333329,32.45030000000001,38
+persistence fails: genuine,Ranker only,60,100.0,0.22876666666666665,0.0,0
+persistence fails: genuine,Gate only,60,98.33333333333333,0.3487166666666667,0.0,1
+persistence fails: genuine,"Proposed, Phase 2 incumbent",60,95.0,0.44498333333333356,0.15800000000000064,3
+persistence fails: genuine,"Proposed, guarded threshold",60,100.0,0.22876666666666665,0.0,0
+last-known-best fails,Proposed,62,95.16129032258065,0.493483870967742,1.4219999999999835,3
+last-known-best fails,Random,62,87.09677419354838,113.40261290322582,359.92870000000005,8
+last-known-best fails,Persistence,62,100.0,0.3046451612903222,0.0,0
+last-known-best fails,Last-known-best,62,100.0,0.28011290322580584,0.0,0
+last-known-best fails,Nowcast min-RTT*,62,95.16129032258065,0.0,0.0,3
+last-known-best fails,EMA-6 RTT,62,100.0,0.28011290322580584,0.0,0
+last-known-best fails,ScionPathML heuristic (nowcast)*,62,35.483870967741936,14.214564516129027,32.434700000000014,40
+last-known-best fails,ScionPathML heuristic (forecast),62,100.0,1.0075967741935474,0.0,0
+last-known-best fails,Epsilon-greedy (0.1),62,67.74193548387096,7.389419354838709,5.02989999999998,20
+last-known-best fails,Oracle*,62,35.483870967741936,14.214564516129027,32.434700000000014,40
+last-known-best fails,Ranker only,62,100.0,0.28011290322580584,0.0,0
+last-known-best fails,Gate only,62,98.38709677419355,0.3961935483870962,0.0,1
+last-known-best fails,"Proposed, Phase 2 incumbent",62,95.16129032258065,0.5138870967741934,1.5740999999999872,3
+last-known-best fails,"Proposed, guarded threshold",62,100.0,0.28011290322580584,0.0,0

@@ -1,0 +1,6 @@
+cold-start draw 0
+cold-start draw 1
+cold-start draw 2
+cold-start draw 3
+cold-start draw 4
+[robust] done in 260 s

@@ -1,0 +1,53 @@
+{
+  "dataset_repo": "https://github.com/keshvadi/ScionPathML",
+  "dataset_commit": "362ad60885dabeb2a067d3dae058c506ce5f092a",
+  "archives_added_in_commit": "f0d43d945a6b32b30b55ba765afd4db14205ff0c",
+  "archives": {
+    "Lab1": {
+      "repo_path": "AnalysisResults/Lab1/Data/raw_data.zip",
+      "bytes": 68131854,
+      "sha256": "699873e639d1ddbf6fdcadbd9ed15dbe2728574b845ff71d9a805d40e576db1a",
+      "git_blob_sha1": "f4bb5b90b25b958efdbddc4b5da7c003ff893fe0",
+      "matches_repo_commit": true
+    },
+    "Lab2": {
+      "repo_path": "AnalysisResults/Lab2/Data/raw_data.zip",
+      "bytes": 65825143,
+      "sha256": "6589edb2265b3784d191a3b47ac4892aa33db177a2d396640baa35948128dbba",
+      "git_blob_sha1": "07bb29e23c888a1ad52ec7d693dd276e35f38b62",
+      "matches_repo_commit": true
+    },
+    "Lab3": {
+      "repo_path": "AnalysisResults/Lab3/Data/raw_data.zip",
+      "bytes": 66532988,
+      "sha256": "477fd589339ec481f29770366b6addb61b67f3d3ceaca7e2b03f54da72ec8c9f",
+      "git_blob_sha1": "c86cee63a658466eefc60f2aa78c43d2f42b959c",
+      "matches_repo_commit": true
+    }
+  },
+  "all_archives_match": true,
+  "parser": "phase3 parse_raw.py (own parser of the raw JSON; the scionpathml transformer is not used)",
+  "parser_version": "1.1.0",
+  "parser_sha256": "df94ca694d0326bf9335ac1a2896dfe8f27b7d12f60949dc586af5b2b49ad0eb",
+  "python": "3.14.4",
+  "pandas": "3.1.1",
+  "clean_start": "2025-07-16 00:00:00",
+  "excluded_as": [
+    "22-ffaa:1:11ee"
+  ],
+  "row_counts": {
+    "pings": {
+      "raw_rows": 113850,
+      "clean_rows": 97860
+    },
+    "pathsets": {
+      "raw_rows": 145669,
+      "clean_rows": 121615
+    },
+    "bandwidth": {
+      "raw_rows": 135750,
+      "clean_rows": 73464
+    }
+  },
+  "parsed_at_utc": "2026-11-15T09:06:42+00:00"
+}

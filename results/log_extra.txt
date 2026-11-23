@@ -1,0 +1,67 @@
+      tau  fired  fail_pct  regret_mean
+90  0.969  0.000     4.841        1.696
+81  0.924  0.018     3.331        1.078
+71  0.484  0.048     1.365        0.384
+61  0.361  0.068     2.151        0.648
+51  0.308  0.088     2.586        0.828
+41  0.243  0.180     4.737        1.761
+31  0.188  0.380    10.447        4.489
+21  0.134  0.580    16.612        7.158
+11  0.064  0.780    22.859        9.729
+1   0.017  0.980    29.892       13.048
+SHAP fold 2 events 55
+         feature  mean_abs_shap     group  perm_auprc_drop  perm_sd
+21   rtt_min_w12         0.1013   rolling           0.0098   0.0344
+22    rtt_max_w3         0.0900   rolling           0.0180   0.0306
+13   jit_mean_w3         0.0708   rolling          -0.0037   0.0198
+61       dow_sin         0.0695  temporal           0.0050   0.0029
+24   rtt_max_w12         0.0550   rolling           0.0112   0.0272
+0       last_rtt         0.0309   current           0.0131   0.0303
+5    rtt_mean_w3         0.0308   rolling          -0.0011   0.0032
+14   jit_mean_w6         0.0267   rolling           0.0084   0.0243
+59       hod_sin         0.0229  temporal           0.0019   0.0015
+41      runage_h         0.0212   run_age           0.0014   0.0245
+7   rtt_mean_w12         0.0152   rolling           0.0214   0.0187
+15  jit_mean_w12         0.0144   rolling           0.0008   0.0344
+group
+rolling        0.492
+temporal       0.106
+current        0.044
+run_age        0.032
+relative       0.014
+volatility     0.008
+observation    0.000
+structure      0.000
+stability      0.000
+Name: mean_abs_shap, dtype: float64
+all features {'auprc': 0.639, 'prevalence': 0.048, 'policy_fail_pct': 1.51, 'regret': 0.48}
+without temporal {'auprc': 0.634, 'prevalence': 0.048, 'policy_fail_pct': 1.427, 'regret': 0.411}
+without temporal and volatility {'auprc': 0.628, 'prevalence': 0.048, 'policy_fail_pct': 1.469, 'regret': 0.436}
+history only (rolling+current) {'auprc': 0.639, 'prevalence': 0.048, 'policy_fail_pct': 1.365, 'regret': 0.404}
+{
+  "last value (naive)": {
+    "mae": 3.471,
+    "median_ae": 1.459,
+    "n": 77014
+  },
+  "EMA-6": {
+    "mae": 3.029,
+    "median_ae": 1.504,
+    "n": 77014
+  },
+  "mean of last 12 intervals": {
+    "mae": 3.137,
+    "median_ae": 1.622,
+    "n": 77014
+  },
+  "linear regression on window statistics (70/30 time split)": {
+    "mae": 3.278,
+    "median_ae": 1.497,
+    "n": 23146
+  },
+  "last value on the same 30 % test rows": {
+    "mae": 4.047,
+    "median_ae": 1.191,
+    "n": 23146
+  }
+}

@@ -1,0 +1,121 @@
+draw,subset,policy,training,n,n_fail,regret_sum,picked_heldout
+0,best path is held out,Proposed,held-out paths unseen in training,300,25,98.22699999999998,254
+0,best path is held out,Proposed,trained on all paths,300,24,106.85299999999984,253
+0,best path is held out,"Proposed, no blend",held-out paths unseen in training,300,24,88.76699999999988,264
+0,best path is held out,"Proposed, no blend",trained on all paths,300,25,72.44399999999985,258
+0,best path is held out,Persistence,no training,300,25,253.38099999999974,220
+0,best path is held out,Last-known-best,no training,300,25,50.37999999999994,263
+0,best path is held out,EMA-6 RTT,no training,300,25,40.41999999999996,264
+0,best path is held out,Oracle*,no training,300,10,356.5279999999999,300
+0,last-known-best is held out,Proposed,held-out paths unseen in training,289,6,63.62100000000004,267
+0,last-known-best is held out,Proposed,trained on all paths,289,5,86.41799999999984,264
+0,last-known-best is held out,"Proposed, no blend",held-out paths unseen in training,289,6,31.683999999999912,275
+0,last-known-best is held out,"Proposed, no blend",trained on all paths,289,5,56.09999999999985,270
+0,last-known-best is held out,Persistence,no training,289,6,244.90899999999982,243
+0,last-known-best is held out,Last-known-best,no training,289,6,45.125,289
+0,last-known-best is held out,EMA-6 RTT,no training,289,6,14.654999999999973,279
+0,last-known-best is held out,Oracle*,no training,289,0,26.862999999999943,263
+0,any candidate is held out,Proposed,held-out paths unseen in training,4812,61,220.43500000000012,277
+0,any candidate is held out,Proposed,trained on all paths,4812,65,575.887,280
+0,any candidate is held out,"Proposed, no blend",held-out paths unseen in training,4812,68,407.41400000000004,305
+0,any candidate is held out,"Proposed, no blend",trained on all paths,4812,61,276.3079999999999,282
+0,any candidate is held out,Persistence,no training,4812,232,8152.768000000001,399
+0,any candidate is held out,Last-known-best,no training,4812,61,220.54699999999997,289
+0,any candidate is held out,EMA-6 RTT,no training,4812,62,137.78200000000015,291
+0,any candidate is held out,Oracle*,no training,4812,22,878.8379999999997,300
+1,best path is held out,Proposed,held-out paths unseen in training,1084,13,46.01500000000004,1063
+1,best path is held out,Proposed,trained on all paths,1084,15,169.46400000000008,1051
+1,best path is held out,"Proposed, no blend",held-out paths unseen in training,1084,11,89.35200000000009,1056
+1,best path is held out,"Proposed, no blend",trained on all paths,1084,13,73.63300000000004,1057
+1,best path is held out,Persistence,no training,1084,85,2963.9100000000008,945
+1,best path is held out,Last-known-best,no training,1084,13,28.972000000000037,1065
+1,best path is held out,EMA-6 RTT,no training,1084,13,23.542000000000087,1067
+1,best path is held out,Oracle*,no training,1084,0,37.36799999999988,1084
+1,last-known-best is held out,Proposed,held-out paths unseen in training,1084,14,28.188999999999908,1079
+1,last-known-best is held out,Proposed,trained on all paths,1084,15,160.181,1065
+1,last-known-best is held out,"Proposed, no blend",held-out paths unseen in training,1084,13,79.99799999999999,1068
+1,last-known-best is held out,"Proposed, no blend",trained on all paths,1084,13,66.33099999999996,1071
+1,last-known-best is held out,Persistence,no training,1084,86,2954.7320000000004,962
+1,last-known-best is held out,Last-known-best,no training,1084,14,11.688999999999908,1084
+1,last-known-best is held out,EMA-6 RTT,no training,1084,14,8.16599999999994,1082
+1,last-known-best is held out,Oracle*,no training,1084,11,399.07199999999995,1065
+1,any candidate is held out,Proposed,held-out paths unseen in training,4520,54,208.68200000000013,1081
+1,any candidate is held out,Proposed,trained on all paths,4520,57,544.2239999999999,1076
+1,any candidate is held out,"Proposed, no blend",held-out paths unseen in training,4520,56,417.5970000000004,1116
+1,any candidate is held out,"Proposed, no blend",trained on all paths,4520,54,276.3079999999999,1078
+1,any candidate is held out,Persistence,no training,4520,219,7976.069,1032
+1,any candidate is held out,Last-known-best,no training,4520,54,220.54699999999997,1084
+1,any candidate is held out,EMA-6 RTT,no training,4520,55,137.78200000000015,1088
+1,any candidate is held out,Oracle*,no training,4520,15,664.5209999999997,1084
+2,best path is held out,Proposed,held-out paths unseen in training,2297,40,694.182,2239
+2,best path is held out,Proposed,trained on all paths,2297,25,344.26499999999993,2241
+2,best path is held out,"Proposed, no blend",held-out paths unseen in training,2297,22,75.36099999999988,2252
+2,best path is held out,"Proposed, no blend",trained on all paths,2297,22,135.83199999999988,2249
+2,best path is held out,Persistence,no training,2297,121,4513.23,2020
+2,best path is held out,Last-known-best,no training,2297,22,108.87299999999999,2247
+2,best path is held out,EMA-6 RTT,no training,2297,22,67.06899999999996,2252
+2,best path is held out,Oracle*,no training,2297,0,64.62599999999992,2297
+2,last-known-best is held out,Proposed,held-out paths unseen in training,2293,45,673.2710000000001,2265
+2,last-known-best is held out,Proposed,trained on all paths,2293,31,319.893,2266
+2,last-known-best is held out,"Proposed, no blend",held-out paths unseen in training,2293,27,56.978999999999985,2280
+2,last-known-best is held out,"Proposed, no blend",trained on all paths,2293,27,112.97099999999995,2277
+2,last-known-best is held out,Persistence,no training,2293,126,4455.93,2058
+2,last-known-best is held out,Last-known-best,no training,2293,27,69.15800000000013,2293
+2,last-known-best is held out,EMA-6 RTT,no training,2293,27,44.103000000000065,2278
+2,last-known-best is held out,Oracle*,no training,2293,11,424.7979999999998,2247
+2,any candidate is held out,Proposed,held-out paths unseen in training,4824,89,1226.9460000000001,2291
+2,any candidate is held out,Proposed,trained on all paths,4824,66,575.8870000000001,2286
+2,any candidate is held out,"Proposed, no blend",held-out paths unseen in training,4824,63,176.65699999999998,2300
+2,any candidate is held out,"Proposed, no blend",trained on all paths,4824,62,276.3079999999999,2296
+2,any candidate is held out,Persistence,no training,4824,234,8197.537,2136
+2,any candidate is held out,Last-known-best,no training,4824,62,217.98999999999995,2293
+2,any candidate is held out,EMA-6 RTT,no training,4824,63,135.22500000000014,2298
+2,any candidate is held out,Oracle*,no training,4824,22,881.3029999999997,2297
+3,best path is held out,Proposed,held-out paths unseen in training,1488,11,407.207,1476
+3,best path is held out,Proposed,trained on all paths,1488,5,212.255,1483
+3,best path is held out,"Proposed, no blend",held-out paths unseen in training,1488,4,155.26399999999998,1484
+3,best path is held out,"Proposed, no blend",trained on all paths,1488,1,40.31299999999999,1487
+3,best path is held out,Persistence,no training,1488,97,4062.2350000000006,1322
+3,best path is held out,Last-known-best,no training,1488,0,44.837000000000046,1480
+3,best path is held out,EMA-6 RTT,no training,1488,0,0.0,1488
+3,best path is held out,Oracle*,no training,1488,0,0.0,1488
+3,last-known-best is held out,Proposed,held-out paths unseen in training,1496,23,414.86699999999996,1484
+3,last-known-best is held out,Proposed,trained on all paths,1496,17,219.91500000000002,1491
+3,last-known-best is held out,"Proposed, no blend",held-out paths unseen in training,1496,16,162.924,1492
+3,last-known-best is held out,"Proposed, no blend",trained on all paths,1496,13,47.97300000000001,1495
+3,last-known-best is held out,Persistence,no training,1496,109,4029.4080000000004,1336
+3,last-known-best is held out,Last-known-best,no training,1496,12,7.660000000000025,1496
+3,last-known-best is held out,EMA-6 RTT,no training,1496,12,7.660000000000025,1496
+3,last-known-best is held out,Oracle*,no training,1496,11,372.17699999999996,1480
+3,any candidate is held out,Proposed,held-out paths unseen in training,4828,79,874.7950000000002,1494
+3,any candidate is held out,Proposed,trained on all paths,4828,66,575.8870000000001,1500
+3,any candidate is held out,"Proposed, no blend",held-out paths unseen in training,4828,70,576.2310000000002,1502
+3,any candidate is held out,"Proposed, no blend",trained on all paths,4828,62,276.3079999999999,1504
+3,any candidate is held out,Persistence,no training,4828,234,8198.444,1344
+3,any candidate is held out,Last-known-best,no training,4828,62,220.54699999999997,1496
+3,any candidate is held out,EMA-6 RTT,no training,4828,63,137.78200000000015,1505
+3,any candidate is held out,Oracle*,no training,4828,22,881.3029999999997,1488
+4,best path is held out,Proposed,held-out paths unseen in training,789,14,5.226999999999975,773
+4,best path is held out,Proposed,trained on all paths,789,13,14.330000000000041,773
+4,best path is held out,"Proposed, no blend",held-out paths unseen in training,789,13,16.311000000000035,772
+4,best path is held out,"Proposed, no blend",trained on all paths,789,13,16.311000000000035,772
+4,best path is held out,Persistence,no training,789,15,425.38700000000006,699
+4,best path is held out,Last-known-best,no training,789,14,50.51600000000002,765
+4,best path is held out,EMA-6 RTT,no training,789,14,5.678999999999974,773
+4,best path is held out,Oracle*,no training,789,12,424.5899999999999,789
+4,last-known-best is held out,Proposed,held-out paths unseen in training,774,1,16.51800000000003,773
+4,last-known-best is held out,Proposed,trained on all paths,774,1,12.807000000000073,770
+4,last-known-best is held out,"Proposed, no blend",held-out paths unseen in training,774,1,12.807000000000073,770
+4,last-known-best is held out,"Proposed, no blend",trained on all paths,774,1,15.398000000000081,771
+4,last-known-best is held out,Persistence,no training,774,2,398.719,706
+4,last-known-best is held out,Last-known-best,no training,774,1,19.49799999999999,774
+4,last-known-best is held out,EMA-6 RTT,no training,774,1,10.811000000000035,772
+4,last-known-best is held out,Oracle*,no training,774,0,5.666999999999973,765
+4,any candidate is held out,Proposed,held-out paths unseen in training,4526,54,218.61000000000007,786
+4,any candidate is held out,Proposed,trained on all paths,4526,57,539.4190000000001,797
+4,any candidate is held out,"Proposed, no blend",held-out paths unseen in training,4526,99,2223.215,795
+4,any candidate is held out,"Proposed, no blend",trained on all paths,4526,54,271.50299999999993,788
+4,any candidate is held out,Persistence,no training,4526,219,7973.488,839
+4,any candidate is held out,Last-known-best,no training,4526,54,220.54699999999997,774
+4,any candidate is held out,EMA-6 RTT,no training,4526,55,137.78200000000015,781
+4,any candidate is held out,Oracle*,no training,4526,15,660.4919999999996,789

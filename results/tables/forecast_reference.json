@@ -1,0 +1,27 @@
+{
+  "last value (naive)": {
+    "mae": 3.471,
+    "median_ae": 1.459,
+    "n": 77014
+  },
+  "EMA-6": {
+    "mae": 3.029,
+    "median_ae": 1.504,
+    "n": 77014
+  },
+  "mean of last 12 intervals": {
+    "mae": 3.137,
+    "median_ae": 1.622,
+    "n": 77014
+  },
+  "linear regression on window statistics (70/30 time split)": {
+    "mae": 3.278,
+    "median_ae": 1.497,
+    "n": 23146
+  },
+  "last value on the same 30 % test rows": {
+    "mae": 4.047,
+    "median_ae": 1.191,
+    "n": 23146
+  }
+}

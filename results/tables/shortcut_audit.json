@@ -1,0 +1,6 @@
+{
+  "full_gate_auprc": 0.053707276061191585,
+  "temporal_only_auprc": 0.06094640947462664,
+  "prevalence": 0.016725352112676055,
+  "n_events": 19
+}

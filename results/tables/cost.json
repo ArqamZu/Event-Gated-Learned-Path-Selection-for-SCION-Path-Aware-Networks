@@ -1,0 +1,9 @@
+{
+  "fit_seconds_full_train": 9.673330639000142,
+  "fit_seconds_cv_mean": 5.806891893200008,
+  "infer_ms_per_decision": 0.051902097370874395,
+  "decision_interval_ms": 1800000,
+  "model_size_kb": 177.5029296875,
+  "peak_rss_mb": 792.875,
+  "n_train_candidate_rows": 71639
+}

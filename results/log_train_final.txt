@@ -1,0 +1,24 @@
+{
+ "n": 1022.0,
+ "fail_pct": 3.033,
+ "fail50_pct": 1.957,
+ "n_fail": 31.0,
+ "regret_mean": 0.435,
+ "regret_p90": 0.0,
+ "regret_p99": 29.92,
+ "switch_per_dec": 0.03,
+ "switch_per_pair_day": 1.456,
+ "switch_per_day": 4.429,
+ "fired_pct": 3.914,
+ "gate_auprc": 0.038,
+ "gate_auroc": 0.683,
+ "gate_prevalence": 0.017,
+ "gate_precision": 0.05,
+ "gate_recall": 0.118,
+ "gate_f1": 0.07,
+ "gate_mcc": 0.053,
+ "gate_bal_acc": 0.54,
+ "gate_n_events": 17.0,
+ "gate_fired_pct": 3.914
+}
+saved: switcher_trainsplit.pkl switcher_alldata.pkl

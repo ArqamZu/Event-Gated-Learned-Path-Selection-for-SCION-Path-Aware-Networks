@@ -1,0 +1,154 @@
+{
+  "dataset_repo": "https://github.com/keshvadi/ScionPathML",
+  "dataset_commit": "362ad60885dabeb2a067d3dae058c506ce5f092a",
+  "archives_added_in_commit": "f0d43d945a6b32b30b55ba765afd4db14205ff0c",
+  "archives_match_commit": true,
+  "archive_sha256": {
+    "Lab1": "699873e639d1ddbf6fdcadbd9ed15dbe2728574b845ff71d9a805d40e576db1a",
+    "Lab2": "6589edb2265b3784d191a3b47ac4892aa33db177a2d396640baa35948128dbba",
+    "Lab3": "477fd589339ec481f29770366b6addb61b67f3d3ceaca7e2b03f54da72ec8c9f"
+  },
+  "parser": "phase3 parse_raw.py (own parser of the raw JSON; the scionpathml transformer is not used)",
+  "parser_version": "1.1.0",
+  "parser_sha256": "df94ca694d0326bf9335ac1a2896dfe8f27b7d12f60949dc586af5b2b49ad0eb",
+  "table_row_counts": {
+    "pings": {
+      "raw_rows": 113850,
+      "clean_rows": 97860
+    },
+    "pathsets": {
+      "raw_rows": 145669,
+      "clean_rows": 121615
+    },
+    "bandwidth": {
+      "raw_rows": 135750,
+      "clean_rows": 73464
+    }
+  },
+  "ping_rows": 97860,
+  "ping_status": {
+    "ok": 97004,
+    "skipped": 848,
+    "error": 8
+  },
+  "ping_ok_but_total_loss": 38,
+  "dead_path_candidate_rows": 37,
+  "dead_path_incumbents": 0,
+  "pings_per_probe": [
+    15
+  ],
+  "loss_values_pct_top": {
+    "0.0": 93006,
+    "7.0": 2942,
+    "14.0": 703,
+    "20.0": 208,
+    "27.0": 63,
+    "34.0": 21,
+    "40.0": 7,
+    "47.0": 3
+  },
+  "loss_quantum_pct": 6.67,
+  "hop_count_equals_2x_links": true,
+  "hop_count_range": [
+    5,
+    10
+  ],
+  "skipped_share_per_lab": {
+    "Lab1": 0.93,
+    "Lab2": 0.6,
+    "Lab3": 1.04
+  },
+  "paths_per_pair": {
+    "CH->NA": 18,
+    "CH->EU": 20,
+    "NA->CH": 20,
+    "NA->EU": 24,
+    "EU->CH": 20,
+    "EU->NA": 24
+  },
+  "distinct_pair_paths": 126,
+  "pair_span_days": {
+    "CH->NA": 24.0,
+    "CH->EU": 24.0,
+    "NA->CH": 24.0,
+    "NA->EU": 26.7,
+    "EU->CH": 24.0,
+    "EU->NA": 26.7
+  },
+  "pair_coverage_pct": {
+    "CH->NA": 99.7,
+    "CH->EU": 97.9,
+    "NA->CH": 99.7,
+    "NA->EU": 98.1,
+    "EU->CH": 98.2,
+    "EU->NA": 94.3
+  },
+  "bandwidth_rows": 73464,
+  "bandwidth_tiers": [
+    10,
+    50,
+    100
+  ],
+  "bandwidth_failed_pct_per_lab": {
+    "Lab1": 17.5,
+    "Lab2": 11.2,
+    "Lab3": 9.9
+  },
+  "bandwidth_ping_fp_overlap": 0,
+  "snapshot_change_pct": 3.8,
+  "empty_snapshots": 660,
+  "empty_snapshot_pct": 8.6,
+  "runs": 2540,
+  "runs_per_path_mean": 20.2,
+  "run_median_h": 8.0,
+  "runs_under_24h_pct": 76.1,
+  "probe_rows_first6h_pct": 17.9,
+  "rtt_mean_first6h_vs_older": [
+    442.8,
+    402.9
+  ],
+  "loss_mean_first6h_vs_older": [
+    0.5,
+    0.42
+  ],
+  "unseen_paths_in_last15pct": 0,
+  "decisions_consecutive": 6866,
+  "decisions_evaluable": 5731,
+  "evaluable_pct": 83.5,
+  "persistence_fail20": 298,
+  "persistence_fail20_pct": 5.2,
+  "persistence_fail50_pct": 1.48,
+  "persistence_mean_regret": 1.8,
+  "persistence_p99_regret_all": 43.6,
+  "persistence_p99_regret_in_failures": 52.2,
+  "persistence_fail_artifact": 228,
+  "persistence_fail_genuine": 70,
+  "genuine_loss_driven": 70,
+  "persistence_loss_failures": 79,
+  "persistence_loss_failures_single_ping": 69,
+  "persistence_loss_failures_regret_le_20": 78,
+  "random_mean_regret": 141.5,
+  "candidates_per_decision_mean": 13.8,
+  "qoe_oracle_ceiling_pct_phase2_thresholds": {
+    "video_conf (250 ms, 7 %)": 1.0,
+    "gaming (120 ms, 4 %)": 0.0,
+    "file_transfer (800 ms, 12 %)": 100.0,
+    "browsing (500 ms, 10 %)": 100.0,
+    "streaming (400 ms, 5 %)": 100.0
+  },
+  "qoe_oracle_ceiling_pct_preprint_thresholds": {
+    "video_conf (150 ms, 2 %)": 0.0,
+    "gaming (50 ms, 1 %)": 0.0,
+    "file_transfer (500 ms, 5 %)": 100.0,
+    "browsing (300 ms, 3 %)": 99.7,
+    "streaming (200 ms, 1 %)": 0.0
+  },
+  "min_rtt_per_pair_ms": {
+    "CH->EU": 254.6,
+    "CH->NA": 246.0,
+    "EU->CH": 255.0,
+    "EU->NA": 258.6,
+    "NA->CH": 246.4,
+    "NA->EU": 258.6
+  }
+}

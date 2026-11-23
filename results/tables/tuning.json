@@ -1,0 +1,271 @@
+{
+  "gate": {
+    "num_leaves": 15,
+    "min_child_samples": 20,
+    "learning_rate": 0.03
+  },
+  "ranker": {
+    "num_leaves": 15,
+    "min_child_samples": 20,
+    "learning_rate": 0.1
+  },
+  "gate_grid": [
+    {
+      "num_leaves": 15,
+      "min_child_samples": 20,
+      "learning_rate": 0.03,
+      "oof_auprc": 0.01862770001845139,
+      "prevalence": 0.009485094850948509,
+      "n_events": 28
+    },
+    {
+      "num_leaves": 7,
+      "min_child_samples": 100,
+      "learning_rate": 0.1,
+      "oof_auprc": 0.017940536168322974,
+      "prevalence": 0.009485094850948509,
+      "n_events": 28
+    },
+    {
+      "num_leaves": 31,
+      "min_child_samples": 100,
+      "learning_rate": 0.1,
+      "oof_auprc": 0.017725447291981725,
+      "prevalence": 0.009485094850948509,
+      "n_events": 28
+    },
+    {
+      "num_leaves": 15,
+      "min_child_samples": 100,
+      "learning_rate": 0.1,
+      "oof_auprc": 0.017629706192508404,
+      "prevalence": 0.009485094850948509,
+      "n_events": 28
+    },
+    {
+      "num_leaves": 7,
+      "min_child_samples": 100,
+      "learning_rate": 0.03,
+      "oof_auprc": 0.01760405714032205,
+      "prevalence": 0.009485094850948509,
+      "n_events": 28
+    },
+    {
+      "num_leaves": 7,
+      "min_child_samples": 20,
+      "learning_rate": 0.1,
+      "oof_auprc": 0.01715072921710528,
+      "prevalence": 0.009485094850948509,
+      "n_events": 28
+    },
+    {
+      "num_leaves": 31,
+      "min_child_samples": 20,
+      "learning_rate": 0.03,
+      "oof_auprc": 0.016810435210561265,
+      "prevalence": 0.009485094850948509,
+      "n_events": 28
+    },
+    {
+      "num_leaves": 15,
+      "min_child_samples": 100,
+      "learning_rate": 0.03,
+      "oof_auprc": 0.016438020408056378,
+      "prevalence": 0.009485094850948509,
+      "n_events": 28
+    },
+    {
+      "num_leaves": 31,
+      "min_child_samples": 100,
+      "learning_rate": 0.03,
+      "oof_auprc": 0.016375439698700308,
+      "prevalence": 0.009485094850948509,
+      "n_events": 28
+    },
+    {
+      "num_leaves": 7,
+      "min_child_samples": 50,
+      "learning_rate": 0.03,
+      "oof_auprc": 0.014980365032123329,
+      "prevalence": 0.009485094850948509,
+      "n_events": 28
+    },
+    {
+      "num_leaves": 7,
+      "min_child_samples": 50,
+      "learning_rate": 0.1,
+      "oof_auprc": 0.014445979659263367,
+      "prevalence": 0.009485094850948509,
+      "n_events": 28
+    },
+    {
+      "num_leaves": 7,
+      "min_child_samples": 20,
+      "learning_rate": 0.03,
+      "oof_auprc": 0.014068140223043311,
+      "prevalence": 0.009485094850948509,
+      "n_events": 28
+    },
+    {
+      "num_leaves": 31,
+      "min_child_samples": 50,
+      "learning_rate": 0.1,
+      "oof_auprc": 0.013460472767489157,
+      "prevalence": 0.009485094850948509,
+      "n_events": 28
+    },
+    {
+      "num_leaves": 31,
+      "min_child_samples": 50,
+      "learning_rate": 0.03,
+      "oof_auprc": 0.013426229113931785,
+      "prevalence": 0.009485094850948509,
+      "n_events": 28
+    },
+    {
+      "num_leaves": 15,
+      "min_child_samples": 50,
+      "learning_rate": 0.03,
+      "oof_auprc": 0.013283264532973287,
+      "prevalence": 0.009485094850948509,
+      "n_events": 28
+    },
+    {
+      "num_leaves": 15,
+      "min_child_samples": 20,
+      "learning_rate": 0.1,
+      "oof_auprc": 0.013070678030215912,
+      "prevalence": 0.009485094850948509,
+      "n_events": 28
+    },
+    {
+      "num_leaves": 31,
+      "min_child_samples": 20,
+      "learning_rate": 0.1,
+      "oof_auprc": 0.012971070574541358,
+      "prevalence": 0.009485094850948509,
+      "n_events": 28
+    },
+    {
+      "num_leaves": 15,
+      "min_child_samples": 50,
+      "learning_rate": 0.1,
+      "oof_auprc": 0.01273870025749568,
+      "prevalence": 0.009485094850948509,
+      "n_events": 28
+    }
+  ],
+  "ranker_grid": [
+    {
+      "num_leaves": 15,
+      "min_child_samples": 20,
+      "learning_rate": 0.1,
+      "oof_ndcg1": 0.9859467816270341
+    },
+    {
+      "num_leaves": 7,
+      "min_child_samples": 100,
+      "learning_rate": 0.03,
+      "oof_ndcg1": 0.985859704709633
+    },
+    {
+      "num_leaves": 7,
+      "min_child_samples": 20,
+      "learning_rate": 0.03,
+      "oof_ndcg1": 0.9857729894824391
+    },
+    {
+      "num_leaves": 7,
+      "min_child_samples": 100,
+      "learning_rate": 0.1,
+      "oof_ndcg1": 0.9856871773528312
+    },
+    {
+      "num_leaves": 31,
+      "min_child_samples": 100,
+      "learning_rate": 0.03,
+      "oof_ndcg1": 0.9851664330309597
+    },
+    {
+      "num_leaves": 7,
+      "min_child_samples": 50,
+      "learning_rate": 0.1,
+      "oof_ndcg1": 0.9850808017464555
+    },
+    {
+      "num_leaves": 7,
+      "min_child_samples": 50,
+      "learning_rate": 0.03,
+      "oof_ndcg1": 0.984949961018932
+    },
+    {
+      "num_leaves": 15,
+      "min_child_samples": 50,
+      "learning_rate": 0.03,
+      "oof_ndcg1": 0.984820204234098
+    },
+    {
+      "num_leaves": 7,
+      "min_child_samples": 20,
+      "learning_rate": 0.1,
+      "oof_ndcg1": 0.9845608709455675
+    },
+    {
+      "num_leaves": 31,
+      "min_child_samples": 50,
+      "learning_rate": 0.03,
+      "oof_ndcg1": 0.9836075437258814
+    },
+    {
+      "num_leaves": 31,
+      "min_child_samples": 100,
+      "learning_rate": 0.1,
+      "oof_ndcg1": 0.9834777863770815
+    },
+    {
+      "num_leaves": 15,
+      "min_child_samples": 100,
+      "learning_rate": 0.1,
+      "oof_ndcg1": 0.983304175641556
+    },
+    {
+      "num_leaves": 31,
+      "min_child_samples": 50,
+      "learning_rate": 0.1,
+      "oof_ndcg1": 0.9831744182927561
+    },
+    {
+      "num_leaves": 15,
+      "min_child_samples": 20,
+      "learning_rate": 0.03,
+      "oof_ndcg1": 0.9831302020878914
+    },
+    {
+      "num_leaves": 15,
+      "min_child_samples": 100,
+      "learning_rate": 0.03,
+      "oof_ndcg1": 0.9830439381275075
+    },
+    {
+      "num_leaves": 15,
+      "min_child_samples": 50,
+      "learning_rate": 0.1,
+      "oof_ndcg1": 0.9824241182448494
+    },
+    {
+      "num_leaves": 31,
+      "min_child_samples": 20,
+      "learning_rate": 0.03,
+      "oof_ndcg1": 0.9813542075309395
+    },
+    {
+      "num_leaves": 31,
+      "min_child_samples": 20,
+      "learning_rate": 0.1,
+      "oof_ndcg1": 0.9803155200124217
+    }
+  ],
+  "gate_target": "failure of the ranker's top path (cross-fitted on training rows), Phase 2 evaluable decisions",
+  "ranker_target": "NDCG@1 of graded next-interval relevance",
+  "note": "purged expanding-window CV (5 blocks, 4 folds) inside the 70% training portion"
+}

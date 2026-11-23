@@ -1,0 +1,56 @@
+{
+  "rows": 73464,
+  "tests_by_source": {
+    "CH": {
+      "tests": 27576,
+      "failed_pct": 11.16,
+      "degraded_pct": 24.92
+    },
+    "EU": {
+      "tests": 23010,
+      "failed_pct": 17.53,
+      "degraded_pct": 15.91
+    },
+    "NA": {
+      "tests": 22878,
+      "failed_pct": 9.9,
+      "degraded_pct": 19.56
+    }
+  },
+  "degraded_definition": "test completed but achieved < 90% of target",
+  "ping_fp_overlap": 0,
+  "ratio_median_by_tier": {
+    "10": 1.0,
+    "50": 0.979,
+    "100": 0.789
+  },
+  "link_by_source": {
+    "CH": {
+      "n_slots": 1151,
+      "rho_ping_lossy_vs_bw_ratio": -0.12469908852529918,
+      "p1": 2.6270677795898225e-05,
+      "rho_ping_rtt_vs_bw_ratio": -0.05369459480654459,
+      "p2": 0.07118849076371075,
+      "rho_ping_lossy_vs_bw_failed": 0.06531073257157662,
+      "p3": 0.026710972245167174
+    },
+    "EU": {
+      "n_slots": 1262,
+      "rho_ping_lossy_vs_bw_ratio": -0.021116561184899556,
+      "p1": 0.4790212593195813,
+      "rho_ping_rtt_vs_bw_ratio": -0.11753304041074351,
+      "p2": 7.709415254471693e-05,
+      "rho_ping_lossy_vs_bw_failed": -0.00041217733079000835,
+      "p3": 0.9883290072975409
+    },
+    "NA": {
+      "n_slots": 1273,
+      "rho_ping_lossy_vs_bw_ratio": -0.1056612172742493,
+      "p1": 0.0001923121887988769,
+      "rho_ping_rtt_vs_bw_ratio": -0.21723878025802626,
+      "p2": 1.0121109074841985e-14,
+      "rho_ping_lossy_vs_bw_failed": 0.029639701970288566,
+      "p3": 0.2906430810023162
+    }
+  }
+}

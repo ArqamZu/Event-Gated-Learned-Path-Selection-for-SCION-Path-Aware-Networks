@@ -1,0 +1,121 @@
+profile,source,policy,satisfaction_pct,oracle_ceiling_pct,share_of_ceiling
+"video_conf (Phase 2: 250 ms, 7 %)",phase2,Proposed,0.43442283822920974,0.4551096400496483,0.9545454545454545
+"video_conf (Phase 2: 250 ms, 7 %)",phase2,Random,0.02068680182043856,0.4551096400496483,0.04545454545454545
+"video_conf (Phase 2: 250 ms, 7 %)",phase2,Persistence,0.4137360364087712,0.4551096400496483,0.9090909090909091
+"video_conf (Phase 2: 250 ms, 7 %)",phase2,Last-known-best,0.4551096400496483,0.4551096400496483,1.0
+"video_conf (Phase 2: 250 ms, 7 %)",phase2,Nowcast min-RTT*,0.4551096400496483,0.4551096400496483,1.0
+"video_conf (Phase 2: 250 ms, 7 %)",phase2,EMA-6 RTT,0.4551096400496483,0.4551096400496483,1.0
+"video_conf (Phase 2: 250 ms, 7 %)",phase2,ScionPathML heuristic (nowcast)*,0.4551096400496483,0.4551096400496483,1.0
+"video_conf (Phase 2: 250 ms, 7 %)",phase2,ScionPathML heuristic (forecast),0.4137360364087712,0.4551096400496483,0.9090909090909091
+"video_conf (Phase 2: 250 ms, 7 %)",phase2,Epsilon-greedy (0.1),0.43442283822920974,0.4551096400496483,0.9545454545454545
+"video_conf (Phase 2: 250 ms, 7 %)",phase2,Oracle*,0.4551096400496483,0.4551096400496483,1.0
+"gaming (Phase 2: 120 ms, 4 %)",phase2,Proposed,0.0,0.0,
+"gaming (Phase 2: 120 ms, 4 %)",phase2,Random,0.0,0.0,
+"gaming (Phase 2: 120 ms, 4 %)",phase2,Persistence,0.0,0.0,
+"gaming (Phase 2: 120 ms, 4 %)",phase2,Last-known-best,0.0,0.0,
+"gaming (Phase 2: 120 ms, 4 %)",phase2,Nowcast min-RTT*,0.0,0.0,
+"gaming (Phase 2: 120 ms, 4 %)",phase2,EMA-6 RTT,0.0,0.0,
+"gaming (Phase 2: 120 ms, 4 %)",phase2,ScionPathML heuristic (nowcast)*,0.0,0.0,
+"gaming (Phase 2: 120 ms, 4 %)",phase2,ScionPathML heuristic (forecast),0.0,0.0,
+"gaming (Phase 2: 120 ms, 4 %)",phase2,Epsilon-greedy (0.1),0.0,0.0,
+"gaming (Phase 2: 120 ms, 4 %)",phase2,Oracle*,0.0,0.0,
+"file_transfer (Phase 2: 800 ms, 12 %)",phase2,Proposed,99.83450558543649,100.0,0.998345055854365
+"file_transfer (Phase 2: 800 ms, 12 %)",phase2,Random,97.08316094331816,100.0,0.9708316094331816
+"file_transfer (Phase 2: 800 ms, 12 %)",phase2,Persistence,99.83450558543649,100.0,0.998345055854365
+"file_transfer (Phase 2: 800 ms, 12 %)",phase2,Last-known-best,99.83450558543649,100.0,0.998345055854365
+"file_transfer (Phase 2: 800 ms, 12 %)",phase2,Nowcast min-RTT*,99.87587918907737,100.0,0.9987587918907737
+"file_transfer (Phase 2: 800 ms, 12 %)",phase2,EMA-6 RTT,99.83450558543649,100.0,0.998345055854365
+"file_transfer (Phase 2: 800 ms, 12 %)",phase2,ScionPathML heuristic (nowcast)*,100.0,100.0,1.0
+"file_transfer (Phase 2: 800 ms, 12 %)",phase2,ScionPathML heuristic (forecast),99.81381878361604,100.0,0.9981381878361605
+"file_transfer (Phase 2: 800 ms, 12 %)",phase2,Epsilon-greedy (0.1),99.37939594538683,100.0,0.9937939594538684
+"file_transfer (Phase 2: 800 ms, 12 %)",phase2,Oracle*,100.0,100.0,1.0
+"browsing (Phase 2: 500 ms, 10 %)",phase2,Proposed,99.83450558543649,100.0,0.998345055854365
+"browsing (Phase 2: 500 ms, 10 %)",phase2,Random,74.22424493173355,100.0,0.7422424493173355
+"browsing (Phase 2: 500 ms, 10 %)",phase2,Persistence,99.83450558543649,100.0,0.998345055854365
+"browsing (Phase 2: 500 ms, 10 %)",phase2,Last-known-best,99.83450558543649,100.0,0.998345055854365
+"browsing (Phase 2: 500 ms, 10 %)",phase2,Nowcast min-RTT*,99.87587918907737,100.0,0.9987587918907737
+"browsing (Phase 2: 500 ms, 10 %)",phase2,EMA-6 RTT,99.83450558543649,100.0,0.998345055854365
+"browsing (Phase 2: 500 ms, 10 %)",phase2,ScionPathML heuristic (nowcast)*,100.0,100.0,1.0
+"browsing (Phase 2: 500 ms, 10 %)",phase2,ScionPathML heuristic (forecast),99.81381878361604,100.0,0.9981381878361605
+"browsing (Phase 2: 500 ms, 10 %)",phase2,Epsilon-greedy (0.1),97.310715763343,100.0,0.9731071576334299
+"browsing (Phase 2: 500 ms, 10 %)",phase2,Oracle*,100.0,100.0,1.0
+"streaming (Phase 2: 400 ms, 5 %)",phase2,Proposed,98.77947869259413,100.0,0.9877947869259412
+"streaming (Phase 2: 400 ms, 5 %)",phase2,Random,62.78444352503103,100.0,0.6278444352503103
+"streaming (Phase 2: 400 ms, 5 %)",phase2,Persistence,98.65535788167149,100.0,0.9865535788167149
+"streaming (Phase 2: 400 ms, 5 %)",phase2,Last-known-best,98.7174182871328,100.0,0.9871741828713281
+"streaming (Phase 2: 400 ms, 5 %)",phase2,Nowcast min-RTT*,98.77947869259413,100.0,0.9877947869259412
+"streaming (Phase 2: 400 ms, 5 %)",phase2,EMA-6 RTT,98.69673148531237,100.0,0.9869673148531237
+"streaming (Phase 2: 400 ms, 5 %)",phase2,ScionPathML heuristic (nowcast)*,100.0,100.0,1.0
+"streaming (Phase 2: 400 ms, 5 %)",phase2,ScionPathML heuristic (forecast),98.65535788167149,100.0,0.9865535788167149
+"streaming (Phase 2: 400 ms, 5 %)",phase2,Epsilon-greedy (0.1),95.09722796855607,100.0,0.9509722796855606
+"streaming (Phase 2: 400 ms, 5 %)",phase2,Oracle*,100.0,100.0,1.0
+"video_conf (preprint: 150 ms, 2 %)",preprint,Proposed,0.0,0.0,
+"video_conf (preprint: 150 ms, 2 %)",preprint,Random,0.0,0.0,
+"video_conf (preprint: 150 ms, 2 %)",preprint,Persistence,0.0,0.0,
+"video_conf (preprint: 150 ms, 2 %)",preprint,Last-known-best,0.0,0.0,
+"video_conf (preprint: 150 ms, 2 %)",preprint,Nowcast min-RTT*,0.0,0.0,
+"video_conf (preprint: 150 ms, 2 %)",preprint,EMA-6 RTT,0.0,0.0,
+"video_conf (preprint: 150 ms, 2 %)",preprint,ScionPathML heuristic (nowcast)*,0.0,0.0,
+"video_conf (preprint: 150 ms, 2 %)",preprint,ScionPathML heuristic (forecast),0.0,0.0,
+"video_conf (preprint: 150 ms, 2 %)",preprint,Epsilon-greedy (0.1),0.0,0.0,
+"video_conf (preprint: 150 ms, 2 %)",preprint,Oracle*,0.0,0.0,
+"gaming (preprint: 50 ms, 1 %)",preprint,Proposed,0.0,0.0,
+"gaming (preprint: 50 ms, 1 %)",preprint,Random,0.0,0.0,
+"gaming (preprint: 50 ms, 1 %)",preprint,Persistence,0.0,0.0,
+"gaming (preprint: 50 ms, 1 %)",preprint,Last-known-best,0.0,0.0,
+"gaming (preprint: 50 ms, 1 %)",preprint,Nowcast min-RTT*,0.0,0.0,
+"gaming (preprint: 50 ms, 1 %)",preprint,EMA-6 RTT,0.0,0.0,
+"gaming (preprint: 50 ms, 1 %)",preprint,ScionPathML heuristic (nowcast)*,0.0,0.0,
+"gaming (preprint: 50 ms, 1 %)",preprint,ScionPathML heuristic (forecast),0.0,0.0,
+"gaming (preprint: 50 ms, 1 %)",preprint,Epsilon-greedy (0.1),0.0,0.0,
+"gaming (preprint: 50 ms, 1 %)",preprint,Oracle*,0.0,0.0,
+"file_transfer (preprint: 500 ms, 5 %)",preprint,Proposed,98.77947869259413,100.0,0.9877947869259412
+"file_transfer (preprint: 500 ms, 5 %)",preprint,Random,72.15556474968969,100.0,0.7215556474968969
+"file_transfer (preprint: 500 ms, 5 %)",preprint,Persistence,98.65535788167149,100.0,0.9865535788167149
+"file_transfer (preprint: 500 ms, 5 %)",preprint,Last-known-best,98.7174182871328,100.0,0.9871741828713281
+"file_transfer (preprint: 500 ms, 5 %)",preprint,Nowcast min-RTT*,98.77947869259413,100.0,0.9877947869259412
+"file_transfer (preprint: 500 ms, 5 %)",preprint,EMA-6 RTT,98.69673148531237,100.0,0.9869673148531237
+"file_transfer (preprint: 500 ms, 5 %)",preprint,ScionPathML heuristic (nowcast)*,100.0,100.0,1.0
+"file_transfer (preprint: 500 ms, 5 %)",preprint,ScionPathML heuristic (forecast),98.65535788167149,100.0,0.9865535788167149
+"file_transfer (preprint: 500 ms, 5 %)",preprint,Epsilon-greedy (0.1),96.04882085229623,100.0,0.9604882085229624
+"file_transfer (preprint: 500 ms, 5 %)",preprint,Oracle*,100.0,100.0,1.0
+"browsing (preprint: 300 ms, 3 %)",preprint,Proposed,98.67604468349194,99.97931319817957,0.9869646182495345
+"browsing (preprint: 300 ms, 3 %)",preprint,Random,38.456764584195284,99.97931319817957,0.3846472170494517
+"browsing (preprint: 300 ms, 3 %)",preprint,Persistence,98.22093504344228,99.97931319817957,0.9824125801779432
+"browsing (preprint: 300 ms, 3 %)",preprint,Last-known-best,98.65535788167149,99.97931319817957,0.9867577074280984
+"browsing (preprint: 300 ms, 3 %)",preprint,Nowcast min-RTT*,98.7587918907737,99.97931319817957,0.9877922615352783
+"browsing (preprint: 300 ms, 3 %)",preprint,EMA-6 RTT,98.63467107985106,99.97931319817957,0.9865507966066625
+"browsing (preprint: 300 ms, 3 %)",preprint,ScionPathML heuristic (nowcast)*,99.97931319817957,99.97931319817957,1.0
+"browsing (preprint: 300 ms, 3 %)",preprint,ScionPathML heuristic (forecast),98.53123707074887,99.97931319817957,0.9855162424994828
+"browsing (preprint: 300 ms, 3 %)",preprint,Epsilon-greedy (0.1),92.67687215556475,99.97931319817957,0.9269604800331057
+"browsing (preprint: 300 ms, 3 %)",preprint,Oracle*,99.97931319817957,99.97931319817957,1.0
+"streaming (preprint: 200 ms, 1 %)",preprint,Proposed,0.0,0.0,
+"streaming (preprint: 200 ms, 1 %)",preprint,Random,0.0,0.0,
+"streaming (preprint: 200 ms, 1 %)",preprint,Persistence,0.0,0.0,
+"streaming (preprint: 200 ms, 1 %)",preprint,Last-known-best,0.0,0.0,
+"streaming (preprint: 200 ms, 1 %)",preprint,Nowcast min-RTT*,0.0,0.0,
+"streaming (preprint: 200 ms, 1 %)",preprint,EMA-6 RTT,0.0,0.0,
+"streaming (preprint: 200 ms, 1 %)",preprint,ScionPathML heuristic (nowcast)*,0.0,0.0,
+"streaming (preprint: 200 ms, 1 %)",preprint,ScionPathML heuristic (forecast),0.0,0.0,
+"streaming (preprint: 200 ms, 1 %)",preprint,Epsilon-greedy (0.1),0.0,0.0,
+"streaming (preprint: 200 ms, 1 %)",preprint,Oracle*,0.0,0.0,
+"video_conf, relative (pair best-RTT q75, 7 %)",relative,Proposed,91.06330161357054,91.7873396772859,0.9921117872436331
+"video_conf, relative (pair best-RTT q75, 7 %)",relative,Random,9.247000413736037,91.7873396772859,0.10074374577417174
+"video_conf, relative (pair best-RTT q75, 7 %)",relative,Persistence,83.94704178733969,91.7873396772859,0.9145819247239125
+"video_conf, relative (pair best-RTT q75, 7 %)",relative,Last-known-best,91.33223003723624,91.7873396772859,0.995041694838855
+"video_conf, relative (pair best-RTT q75, 7 %)",relative,Nowcast min-RTT*,91.74596607364501,91.7873396772859,0.9995492449853504
+"video_conf, relative (pair best-RTT q75, 7 %)",relative,EMA-6 RTT,91.53909805544063,91.7873396772859,0.9972954699121027
+"video_conf, relative (pair best-RTT q75, 7 %)",relative,ScionPathML heuristic (nowcast)*,91.10467521721142,91.7873396772859,0.9925625422582826
+"video_conf, relative (pair best-RTT q75, 7 %)",relative,ScionPathML heuristic (forecast),88.87050062060405,91.7873396772859,0.9682217714672076
+"video_conf, relative (pair best-RTT q75, 7 %)",relative,Epsilon-greedy (0.1),82.04385601985933,91.7873396772859,0.8938471940500338
+"video_conf, relative (pair best-RTT q75, 7 %)",relative,Oracle*,91.10467521721142,91.7873396772859,0.9925625422582826
+"gaming, relative (pair best-RTT q50, 4 %)",relative,Proposed,67.45966073645015,68.16301199834506,0.9896813353566009
+"gaming, relative (pair best-RTT q50, 4 %)",relative,Random,6.268100951592884,68.16301199834506,0.09195751138088012
+"gaming, relative (pair best-RTT q50, 4 %)",relative,Persistence,61.91559784857261,68.16301199834506,0.9083459787556905
+"gaming, relative (pair best-RTT q50, 4 %)",relative,Last-known-best,67.48034753827058,68.16301199834506,0.9899848254931713
+"gaming, relative (pair best-RTT q50, 4 %)",relative,Nowcast min-RTT*,67.76996276375672,68.16301199834506,0.9942336874051593
+"gaming, relative (pair best-RTT q50, 4 %)",relative,EMA-6 RTT,67.50103434009102,68.16301199834506,0.9902883156297421
+"gaming, relative (pair best-RTT q50, 4 %)",relative,ScionPathML heuristic (nowcast)*,68.16301199834506,68.16301199834506,1.0
+"gaming, relative (pair best-RTT q50, 4 %)",relative,ScionPathML heuristic (forecast),65.59784857261067,68.16301199834506,0.9623672230652504
+"gaming, relative (pair best-RTT q50, 4 %)",relative,Epsilon-greedy (0.1),61.357054199420766,68.16301199834506,0.9001517450682852
+"gaming, relative (pair best-RTT q50, 4 %)",relative,Oracle*,68.16301199834506,68.16301199834506,1.0

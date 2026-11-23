@@ -1,0 +1,127 @@
+Full model 0 1.365 0.119 0.03
+Full model 1 1.427 0.166 0.038
+Full model 2 1.8 0.26 0.022
+Full model 3 1.779 0.245 0.029
+Full model 4 1.324 0.052 0.031
+Ranker only (no gate) 0 1.283 0.034 nan
+Ranker only (no gate) 1 1.283 0.033 nan
+Ranker only (no gate) 2 1.283 0.029 nan
+Ranker only (no gate) 3 1.303 0.029 nan
+Ranker only (no gate) 4 1.283 0.029 nan
+Gate only (runner-up switch) 0 1.552 0.185 0.021
+Gate only (runner-up switch) 1 2.234 0.508 0.036
+Gate only (runner-up switch) 2 1.8 0.32 0.02
+Gate only (runner-up switch) 3 1.51 0.192 0.024
+Gate only (runner-up switch) 4 1.634 0.214 0.026
+Last-known-best incumbent 0 1.552 0.184 0.021
+Last-known-best incumbent 1 2.234 0.508 0.036
+Last-known-best incumbent 2 1.8 0.32 0.02
+Last-known-best incumbent 3 1.51 0.192 0.024
+Last-known-best incumbent 4 1.634 0.214 0.026
+Phase 2 incumbent (previous-interval best) 0 1.51 0.48 0.639
+Phase 2 incumbent (previous-interval best) 1 1.469 0.493 0.628
+Phase 2 incumbent (previous-interval best) 2 1.614 0.487 0.635
+Phase 2 incumbent (previous-interval best) 3 1.489 0.456 0.647
+Phase 2 incumbent (previous-interval best) 4 1.489 0.428 0.645
+Guarded threshold (min. gain 2 failures) 0 1.283 0.034 0.03
+Guarded threshold (min. gain 2 failures) 1 1.283 0.033 0.038
+Guarded threshold (min. gain 2 failures) 2 1.283 0.029 0.022
+Guarded threshold (min. gain 2 failures) 3 1.407 0.057 0.029
+Guarded threshold (min. gain 2 failures) 4 1.283 0.029 0.031
+No stale-history blend 0 1.283 0.057 0.026
+No stale-history blend 1 1.427 0.128 0.022
+No stale-history blend 2 1.758 0.26 0.034
+No stale-history blend 3 1.303 0.056 0.026
+No stale-history blend 4 1.758 0.258 0.025
+Blend k = 3 0 1.572 0.199 0.029
+Blend k = 3 1 1.51 0.195 0.034
+Blend k = 3 2 2.131 0.385 0.021
+Blend k = 3 3 1.676 0.208 0.03
+Blend k = 3 4 1.386 0.072 0.04
+Blend k = 12 0 1.924 0.351 0.029
+Blend k = 12 1 1.717 0.281 0.039
+Blend k = 12 2 1.738 0.242 0.024
+Blend k = 12 3 1.676 0.216 0.03
+Blend k = 12 4 1.51 0.148 0.037
+No class weighting 0 1.262 0.042 0.024
+No class weighting 1 1.283 0.041 0.024
+No class weighting 2 1.552 0.148 0.025
+No class weighting 3 1.283 0.066 0.032
+No class weighting 4 1.262 0.036 0.022
+SMOTE instead of class weights 0 1.262 0.041 0.022
+SMOTE instead of class weights 1 1.283 0.033 0.033
+SMOTE instead of class weights 2 1.469 0.181 0.021
+SMOTE instead of class weights 3 1.758 0.32 0.026
+SMOTE instead of class weights 4 1.262 0.033 0.021
+Gate: random forest 0 1.303 0.084 0.031
+Gate: random forest 1 1.324 0.04 0.03
+Gate: random forest 2 1.634 0.202 0.035
+Gate: random forest 3 1.593 0.195 0.041
+Gate: random forest 4 1.345 0.095 0.03
+Gate: logistic regression 0 2.607 0.471 0.043
+Gate: logistic regression 1 2.813 0.542 0.043
+Gate: logistic regression 2 1.448 0.083 0.043
+Gate: logistic regression 3 3.124 0.636 0.042
+Gate: logistic regression 4 3.0 0.609 0.043
+Window <= 3 intervals 0 1.903 0.375 0.039
+Window <= 3 intervals 1 1.283 0.059 0.024
+Window <= 3 intervals 2 1.386 0.086 0.035
+Window <= 3 intervals 3 2.358 0.542 0.036
+Window <= 3 intervals 4 1.345 0.038 0.019
+Window <= 6 intervals 0 1.407 0.068 0.026
+Window <= 6 intervals 1 1.303 0.039 0.023
+Window <= 6 intervals 2 1.262 0.042 0.021
+Window <= 6 intervals 3 1.448 0.13 0.028
+Window <= 6 intervals 4 1.303 0.038 0.028
+- current features 0 2.627 0.697 0.048
+- current features 1 1.593 0.236 0.021
+- current features 2 1.386 0.103 0.022
+- current features 3 1.448 0.096 0.018
+- current features 4 1.986 0.439 0.026
+- rolling features 0 2.4 0.54 0.024
+- rolling features 1 2.296 0.504 0.023
+- rolling features 2 1.634 0.197 0.04
+- rolling features 3 1.262 0.037 0.029
+- rolling features 4 1.324 0.051 0.03
+- stability features 0 1.758 0.262 0.037
+- stability features 1 1.8 0.351 0.026
+- stability features 2 1.676 0.246 0.029
+- stability features 3 1.469 0.133 0.026
+- stability features 4 1.448 0.086 0.043
+- structure features 0 1.283 0.06 0.021
+- structure features 1 1.8 0.313 0.031
+- structure features 2 1.634 0.243 0.034
+- structure features 3 1.469 0.164 0.028
+- structure features 4 1.965 0.383 0.019
+- run_age features 0 1.262 0.043 0.028
+- run_age features 1 1.303 0.05 0.039
+- run_age features 2 1.241 0.06 0.032
+- run_age features 3 1.179 0.07 0.03
+- run_age features 4 1.427 0.082 0.028
+- observation features 0 1.593 0.227 0.021
+- observation features 1 1.8 0.308 0.025
+- observation features 2 2.255 0.493 0.034
+- observation features 3 1.614 0.216 0.029
+- observation features 4 1.365 0.046 0.024
+- relative features 0 2.607 0.707 0.034
+- relative features 1 1.386 0.067 0.033
+- relative features 2 1.882 0.384 0.028
+- relative features 3 2.462 0.597 0.02
+- relative features 4 1.345 0.059 0.024
+- temporal features 0 1.365 0.074 0.025
+- temporal features 1 2.048 0.372 0.021
+- temporal features 2 1.303 0.05 0.019
+- temporal features 3 1.407 0.096 0.03
+- temporal features 4 1.531 0.141 0.025
+- volatility features 0 1.489 0.194 0.033
+- volatility features 1 1.303 0.078 0.038
+- volatility features 2 1.882 0.311 0.023
+- volatility features 3 1.82 0.291 0.033
+- volatility features 4 1.51 0.171 0.031
+label 20 5 1.365 4.841
+label 50 5 1.262 1.469
+label 20 10 0.165 3.662
+label 50 10 0.165 0.29
+label 20 20 0.021 3.537
+label 50 20 0.021 0.165
+[ablation] done in 2856 s

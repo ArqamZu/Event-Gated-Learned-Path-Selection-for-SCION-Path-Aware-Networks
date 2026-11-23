@@ -1,0 +1,29 @@
+{
+  "n_decisions": 4834,
+  "n_failures": 66,
+  "gate_outcome": {
+    "incumbent ok, gate silent (correct keep)": 4734,
+    "incumbent fails, gate silent (missed / late detection)": 59,
+    "incumbent fails, gate fired, switch avoided the failure": 3,
+    "incumbent fails, gate fired, alternative also failed": 0,
+    "false alarm, harmless switch": 31,
+    "false alarm, switch caused a failure": 7
+  },
+  "failure_cause": {
+    "dead path chosen (100 % loss)": 0,
+    "stale-history pick (chosen path < 12 observed intervals in run)": 16,
+    "probe-coverage gap (chosen path not observed at t-1)": 1,
+    "RTT ranking error (regret > 20 ms)": 6,
+    "single lost ping (1 of 15, regret <= 20 ms)": 38,
+    "loss burst (>= 2 lost pings, regret <= 20 ms)": 5
+  },
+  "failure_attributes": {
+    "failures with no non-failing candidate (unavoidable)": 22,
+    "failures in decisions where the gate fired": 7,
+    "failures that are loss-only (regret <= 20 ms)": 59,
+    "failures that are single lost pings": 51,
+    "stale chosen path (any failure)": 16,
+    "chosen path not observed at t-1 (any failure)": 2
+  },
+  "decisions_not_evaluable": 1135
+}
